@@ -11,3 +11,8 @@ source easybuild
 
 # If you have already compiled and only need to load the LISF module, run
 source load_modules
+
+# If you want to recompile
+source load_modules
+cd lis
+./compile -j 4 #(number of procs)
