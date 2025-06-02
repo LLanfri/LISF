@@ -93,6 +93,7 @@ module AC72_module
      !-------------------------------------------------------------------------
      ! AC specific (all AC global variables + others)
      !-------------------------------------------------------------------------
+     real               :: CCiPot
      integer            :: cycle_complete
      integer            :: valid_sim
      real               :: tbase
