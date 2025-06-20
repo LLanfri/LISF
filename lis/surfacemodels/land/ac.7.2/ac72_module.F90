@@ -94,6 +94,7 @@ module AC72_module
      ! AC specific (all AC global variables + others)
      !-------------------------------------------------------------------------
      real               :: CCiPot
+     real               :: SumGDDadjCC
      integer            :: cycle_complete
      integer            :: valid_sim
      real               :: tbase
