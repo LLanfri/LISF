@@ -171,6 +171,8 @@ contains
     allocate(daily_tmax_arr(LIS_rc%npatch(n,LIS_rc%lsm_index),366))
     allocate(daily_tmin_arr(LIS_rc%npatch(n,LIS_rc%lsm_index),366))
     allocate(subdaily_arr(LIS_rc%npatch(n,LIS_rc%lsm_index),met_ts))
+    daily_tmax_arr = 0
+    daily_tmin_arr = 0
 
     if (AC72_struc(n)%Rainfall_crit) then
         allocate(daily_pcp_arr(LIS_rc%npatch(n,LIS_rc%lsm_index),366))
